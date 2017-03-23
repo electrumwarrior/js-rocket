@@ -7,8 +7,12 @@
 	left: 0;
 }
 
+.interface{
+	text-align: center;
+	padding: 20px;
+}
 .right{
-	background-color: aliceblue;
+	background-image: url(../img/fondo.gif);
 	position: fixed;
 	width: 50%;
 	height: 100%;
@@ -22,22 +26,43 @@
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	height:20px;
+	height:40px;
 }
 
 .rocket{
 	position: absolute;
-	left:50%;
+	left: 50%;
 	bottom: 20px;
-	width: 20px;
-	height: 100px;
-	background-color: blue;
+	margin-left: -62px;
+	transition: none;
+	width: 124px;
+	height: 309px;
+	background: url(../img/rocket.state1.png)no-repeat 0 0;
 	transition: bottom 10000ms;
 }
 
-body.body-state3 .rocket,
+body.body-state1 .rocket{
+	transition: none;
+}
+body.body-state2 .rocket{
+background-image: url(../img/rocket.gif);
+}
+
+body.body-state3 .rocket{
+background-image: url(../img/rocket2.gif);
+bottom: 1000px;
+}
+
 body.body-state4 .rocket{
-	bottom: 1000px;
+background-image: url(../img/rocket2.gif);
+bottom: 1000px;
+}
+
+body.body-state5 .rocket{
+background: url(../img/boom.png);
+width: 289px;
+height: 271px;
+margin-left: -144.5px;
 }
 
 .state1,
@@ -58,6 +83,21 @@ a{
 
 }
 
-a.button{
-
+.button{
+	background: url('../img/button.png')no-repeat center 170px;
+	padding: 150px 150px;
+	width: 150px;
+	height: 150px;
+}
+.button1{
+	background: url('../img/button2.png')no-repeat center 170px;
+	padding: 150px 150px;
+	width: 150px;
+	height: 150px;
+}
+.button2{
+	background: url('../img/button3.png')no-repeat center 170px;
+	padding: 150px 150px;
+	width: 150px;
+	height: 150px;
 }
