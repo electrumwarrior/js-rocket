@@ -1,0 +1,62 @@
+.left{
+	background-color: darkmagenta;
+	position: fixed;
+	width: 50%;
+	height: 100%;
+	top:0;
+	left:0;
+}
+.right{
+	background-color: lavender;
+	position: fixed;
+	width: 50%;
+	height: 100%;
+	top:0;
+	right:0;
+}
+
+.button{
+
+}
+
+.button2{
+
+}
+
+.interface{
+	text-align: center;
+	padding: 20px;
+}
+
+.state1,
+.state2,
+.state3,
+.state4,
+.state5,
+.state6,
+.state7,
+.state8,
+.state9,
+.state10,
+.state11,
+.state12,
+.state13,
+.state14,
+.state15{
+	display: none;}
+
+body.body-state1 .state1{display: block;}
+body.body-state2 .state2{display: block;}
+body.body-state3 .state3{display: block;}
+body.body-state4 .state4{display: block;}
+body.body-state5 .state5{display: block;}
+body.body-state6 .state6{display: block;}
+body.body-state7 .state7{display: block;}
+body.body-state8 .state8{display: block;}
+body.body-state9 .state9{display: block;}
+body.body-state10 .state10{display: block;}
+body.body-state11 .state11{display: block;}
+body.body-state12 .state12{display: block;}
+body.body-state13 .state13{display: block;}
+body.body-state14 .state14{display: block;}
+body.body-state15 .state15{display: block;}
