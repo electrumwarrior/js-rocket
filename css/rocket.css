@@ -12,7 +12,7 @@
 	padding: 20px;
 }
 .right{
-	background-image: url(../img/fondo.gif)no-repeat;
+	background-image: url(../img/fondo.gif)no-repeat 0 0;
 	position: fixed;
 	width: 50%;
 	height: 100%;
